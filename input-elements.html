@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Input Elements Table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>Inputs</header>
+    <table style="border: 2px solid black;">
+      <tr>
+        <th>Control type</th>
+        <th>Control</th>
+        <th>Value entered</th>
+      </tr>
+      <tr>
+        <td>input type="checkbox"</td>
+        <td>
+          <form>
+            <input type="checkbox" id="formInput">
+          </form>
+        </td>
+        <td id="showInput"></td>
+      </tr>
+      <tr>
+        <td>input type="radio"</td>
+        <td>
+          <form>
+            <input type="radio" value="First" id="formInput"> First<br />
+            <input type="radio" value="Second" id="formInput"> Second <br />
+            <input type="radio" value="Third" id="formInput"> Third <br />
+          </form>
+        </td>
+        <td id="showInput" id="formInput"></td>
+      </tr>
+      <tr>
+        <td>input type="text"</td>
+        <td>
+          <form>
+            <input type="text" id="formInput">
+          </form>
+        </td>
+        <td id="showInput" id="formInput"></td>
+      </tr>
+      <tr>
+        <td>textarea</td>
+        <td>
+          <textarea></textarea>
+        </td>
+        <td id="showInput" id="formInput"></td>
+      </tr>
+      <tr>
+        <td>select</td>
+        <td>
+          <select> 
+            <option value="First" id="formInput">First</option>  
+            <option value="Second" id="formInput">Second</option>
+            <option value="Third" id="formInput">Third</option>
+          </select>
+        </td>
+        <td id="showInput"></td>
+      </tr>
+    </table>
+  </body>
+</html>
